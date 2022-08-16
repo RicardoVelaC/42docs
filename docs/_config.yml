@@ -1,1 +1,42 @@
+title: "42Docs"
+description: "Recursos sobre mi trabajo en 42Madrid"
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "..:/assets/images/logo-header@2x.png"
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+search:
+  # Display the relative url in search results
+  # Supports true (default) or false
+  rel_url: true
+  # Enable or disable the search button that appears in the bottom right corner of every page
+  # Supports true or false (default)
+  button: false
+
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub":
+    - "//github.com/RicardoVelaC/42docs"
+  "LinkedIn":
+    - "//www.linkedin.com/in/ricardovelac/"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false
+heading_anchors: true
+
 remote_theme: just-the-docs/just-the-docs
