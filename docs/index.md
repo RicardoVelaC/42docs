@@ -25,9 +25,11 @@ versión de 2022.
 ## Librerías
 
 - [Libft](./libs/libft.html)
+- [printf](./libs/printf.html)
 
 ## Apuntes sobre proyectos
 
 - [Born2beRoot](./projects/born2beroot.html)
 - [get_next_line](./projects/get_next_line.html)
-- [printf](./projects/printf.html)
+- [Pipex](./projects/pipex.html)
+

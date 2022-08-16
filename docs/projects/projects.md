@@ -1,9 +1,9 @@
 ---
 layout: default
-nav_order: 3
+nav_order: 2
 title: Projects
 permalink: projects
 has_children: true
 ---
 
-Projects
+## Projects
