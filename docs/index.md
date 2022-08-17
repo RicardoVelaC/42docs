@@ -24,7 +24,7 @@ versión de 2022.
 
 ## Librerías
 
-- [Libft](./libs/libft.html)
+- [libft](./libs/libft.html)
 - [printf](./libs/printf.html)
 
 ## Apuntes sobre proyectos

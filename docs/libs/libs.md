@@ -1,9 +1,9 @@
 ---
 layout: default
-nav_order: 2
+nav_order: 1
 title: Libft
 permalink: libs
 has_children: true
 ---
 
-## Libft
+## Librerias usadas en 42
