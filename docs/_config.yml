@@ -49,4 +49,4 @@ back_to_top_text: "Back to top"
 footer_content: "2022 Ricardo Vela. Distributed by an <a href=\"https://raw.githubusercontent.com/RicardoVelaC/42docs/main/LICENSE\">MIT license.</a>"
 
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc1
