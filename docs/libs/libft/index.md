@@ -14,4 +14,4 @@ Este proyecto consiste en programar una librería en C.
 
 Tu librería tendrá un montón de funciones de propósito general en las que se apoyarán tus programas.
 
-Editado el 22 de octubre de 2022 en 42 Madrid.
+Esto es una prueba en local
