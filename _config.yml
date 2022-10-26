@@ -85,7 +85,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+color_scheme: light
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
