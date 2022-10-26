@@ -35,3 +35,63 @@ Esto es una prueba.
 - [get_next_line](./projects/get_next_line.html)
 - [Pipex](./projects/pipex.html)
 
+<!-- ![](../../assets/images/small-image.jpg)
+
+![](docs/images/logo-header@2x.png) -->
+
+<button class="btn js-toggle-dark-mode">Cambiar modo</button>
+
+<script>
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+
+jtd.addEvent(toggleDarkMode, 'click', function(){
+  if (jtd.getTheme() === 'light') {
+    jtd.setTheme('dark');
+    toggleDarkMode.textContent = 'Cambiar modo';
+  } else {
+    jtd.setTheme('light');
+    toggleDarkMode.textContent = 'Cambiar modo';
+  }
+});
+</script>
+
+
+### Labels
+
+I'm a label
+{: .label }
+
+blue
+{: .label .label-blue }
+green
+{: .label .label-green }
+purple
+{: .label .label-purple }
+yellow
+{: .label .label-yellow }
+red
+{: .label .label-red }
+
+**bold**
+{: .label }
+*italic*
+{: .label }
+***bold + italic***
+{: .label }
+
+### Mermaid Diagrams
+
+The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
+
+
+```
+The final element.
+```
