@@ -22,6 +22,8 @@ Esta es una pequeña guía con recursos y apuntes sobre los proyectos
 incluidos en el cursus de la escuela 42 de Madrid, basados en la
 versión de 2022.
 
+Esto es una prueba.
+
 ## Librerías
 
 - [libft](./libs/libft.html)

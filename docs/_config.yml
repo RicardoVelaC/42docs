@@ -36,7 +36,7 @@ exclude:
    - LICENSE
 
 # Set a path/url to a logo that will be displayed instead of the title
-#logo: "/assets/images/logo-header@2x.png"
+logo: "docs/images/logo-header@2x.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -85,7 +85,7 @@ aux_links:
 aux_links_new_tab: true
 
 # Color scheme supports "light" (default) and "dark"
-color_scheme: light
+color_scheme: dark
 
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
@@ -111,7 +111,10 @@ last_edit_timestamp: true # show or hide edit time - page must have `last_modifi
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 # Theme for local Dev
-theme: just-the-docs
+#theme: just-the-docs
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 # Theme for GitHub Pages
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
