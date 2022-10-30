@@ -5,6 +5,7 @@ title: Libft
 parent: Proyectos
 permalink: proyectos/libft
 has_children: true
+has_toc: false
 ---
 
 # Libft

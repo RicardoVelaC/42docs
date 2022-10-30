@@ -6,6 +6,9 @@ description: "42Docs es una pequeña documentación sobre los proyectos del curs
 permalink: /
 ---
 
+{: .warning }
+> **[WIP]** Este sitio está en proceso de creación!
+
 ## Indice
 {: .no_toc .text-delta }
 
