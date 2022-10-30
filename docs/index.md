@@ -20,15 +20,12 @@ Esta es una pequeña guía con recursos y apuntes sobre los proyectos
 incluidos en el cursus de la escuela 42 de Madrid, basados en la
 versión de 2022.
 
-## Librerías
-
-- [libft](./libs/libft.html)
-
-- [printf](./libs/printf.html)
-
-- [get_next_line](./libs/get_next_line.html)
-
 ## Proyectos
+- [libft](./proyectos/libft.html)
+
+- [printf](./proyectos/printf.html)
+
+- [get_next_line](./proyectos/get_next_line.html)
 
 - [Born2beRoot](./proyectos/born2beroot.html)
 

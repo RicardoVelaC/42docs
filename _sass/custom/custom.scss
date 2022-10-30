@@ -1,0 +1,15 @@
+// Typography (NO está funcionando bien :-)
+$body-font-family: "SFMono-Regular", menlo, consolas, monospace !default;
+$mono-font-family: "SFMono-Regular", menlo, consolas, monospace !default;
+
+// Print-only styles.
+@media print {
+    .side-bar,
+    .page-header {
+      display: none;
+    }
+    .main-content {
+      max-width: auto;
+      margin: 1em;
+    }
+  }
