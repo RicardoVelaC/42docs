@@ -2,9 +2,9 @@
 layout: default
 nav_order: 4
 title: printf
-permalink: libs/printf
+permalink: proyectos/printf
 has_children: false
-parent: Libs
+parent: Proyectos
 ---
 
 ## printf

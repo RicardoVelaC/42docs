@@ -1,9 +1,9 @@
 ---
 layout: default
-nav_order: 6
+nav_order: 5
 title: Pipex
-permalink: projects/pipex
-parent: Projects
+permalink: proyectos/pipex
+parent: Proyectos
 has_children: false
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-nav_order: 5
+nav_order: 2
 title: Born2beRoot
-permalink: projects/born2beroot
-parent: Projects
+permalink: proyectos/born2beroot
+parent: Proyectos
 has_children: false
 ---
 

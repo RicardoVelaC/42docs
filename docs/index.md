@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Inicio
 nav_order: 1
 description: "42Docs es una pequeña documentación sobre los proyectos del cursus versión 2022"
 permalink: /
@@ -9,40 +9,37 @@ permalink: /
 # 42Docs
 {: .no_toc }
 
-## Table of contents
+## Indice
 {: .no_toc .text-delta }
 
 1. TOC
 {:toc}
-
-
 ---
 
 Esta es una pequeña guía con recursos y apuntes sobre los proyectos
 incluidos en el cursus de la escuela 42 de Madrid, basados en la
 versión de 2022.
 
-Esto es una prueba.
-
 ## Librerías
 
 - [libft](./libs/libft.html)
 - [printf](./libs/printf.html)
+- [get_next_line](./libs/get_next_line.html)
 
 ## Apuntes sobre proyectos
 
-- [Born2beRoot](./projects/born2beroot.html)
-- [get_next_line](./projects/get_next_line.html)
-- [Pipex](./projects/pipex.html)
+- [Born2beRoot](./proyectos/born2beroot.html)
+
+- [Pipex](./proyectos/pipex.html)
 
 <!-- ![](../../assets/images/small-image.jpg)
 
 ![](docs/images/logo-header@2x.png) -->
 
-<button class="btn js-toggle-dark-mode">Cambiar modo</button>
+<!-- <button class="btn js-toggle-dark-mode">Cambiar modo</button>
 
 <script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
+const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); 
 
 jtd.addEvent(toggleDarkMode, 'click', function(){
   if (jtd.getTheme() === 'light') {
@@ -54,7 +51,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 </script>
-
+-->
 
 ### Labels
 
@@ -78,20 +75,3 @@ red
 {: .label }
 ***bold + italic***
 {: .label }
-
-### Mermaid Diagrams
-
-The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
-```
-The final element.
-```
