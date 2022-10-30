@@ -31,7 +31,7 @@ exclude:
    - package-lock.json
    - Rakefile
    - README.md
-   - 42docs.code-workspace
+ # 42docs specific:
    - Dockerfile
    - docker-compose.yml
    - LICENSE
@@ -85,9 +85,6 @@ aux_links:
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
 
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
-
 # Sort order for navigation links
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
@@ -118,6 +115,42 @@ gh_edit_repository: "https://github.com/RicardoVelaC/42docs" # the github URL fo
 gh_edit_branch: "main" # the branch that your docs is served from
 #gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: dark
+
+callouts_level: quiet # or loud
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+kramdown:
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+  # ignore:
+  #   envs: all
+
 
 # Theme for local Dev
 #theme: just-the-docs
