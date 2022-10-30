@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "42Docs"
-description: "Recursos sobre mi trabajo en 42Madrid"
+description: "Recursos sobre mi trabajo en 42 Madrid"
 #baseurl: "/42docs" # the subpath of your site, e.g. /blog
 #url: "https://ricardovelac.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -37,7 +37,7 @@ exclude:
    - LICENSE
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/images/logo-header@2x.png"
+logo: "/images/logo-header-d@2x.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -77,6 +77,8 @@ mermaid:
 
 # Aux links for the upper right navigation
 aux_links:
+  "42 Intra":
+    - "//profile.intra.42.fr/users/rvela-ca"
   "GitHub":
     - "//github.com/RicardoVelaC/42docs"
   "LinkedIn":
@@ -102,7 +104,7 @@ heading_anchors: true
 back_to_top: true
 back_to_top_text: "Subir"
 
-footer_content: "2022 - rvela-ca. Distribuido con licencia <a href=\"https://raw.githubusercontent.com/RicardoVelaC/42docs/main/LICENSE\">MIT license.</a>"
+# footer_content: "2022 - rvela-ca. Distribuido con licencia <a href=\"https://raw.githubusercontent.com/RicardoVelaC/42docs/main/LICENSE\">MIT license.</a>"
 
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
@@ -116,8 +118,8 @@ gh_edit_branch: "main" # the branch that your docs is served from
 #gh_edit_source: docs # the source that your files originate from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-# Color scheme supports "light" (default) and "dark"
-color_scheme: dark
+# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+color_scheme: nil
 
 callouts_level: quiet # or loud
 callouts:

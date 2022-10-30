@@ -6,9 +6,6 @@ description: "42Docs es una pequeña documentación sobre los proyectos del curs
 permalink: /
 ---
 
-# 42Docs
-{: .no_toc }
-
 ## Indice
 {: .no_toc .text-delta }
 
@@ -23,10 +20,12 @@ versión de 2022.
 ## Librerías
 
 - [libft](./libs/libft.html)
+
 - [printf](./libs/printf.html)
+
 - [get_next_line](./libs/get_next_line.html)
 
-## Apuntes sobre proyectos
+## Proyectos
 
 - [Born2beRoot](./proyectos/born2beroot.html)
 
@@ -52,26 +51,3 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 -->
-
-### Labels
-
-I'm a label
-{: .label }
-
-blue
-{: .label .label-blue }
-green
-{: .label .label-green }
-purple
-{: .label .label-purple }
-yellow
-{: .label .label-yellow }
-red
-{: .label .label-red }
-
-**bold**
-{: .label }
-*italic*
-{: .label }
-***bold + italic***
-{: .label }
