@@ -1,13 +1,24 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
 title: "42Docs"
 description: "Recursos sobre mi trabajo en 42 Madrid"
-#baseurl: "/42docs" # the subpath of your site, e.g. /blog
-#url: "https://ricardovelac.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "/42docs" # the subpath of your site, e.g. /blog
+# url: "https://ricardovelac.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: pretty
 
 exclude:
  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
@@ -66,23 +77,23 @@ search:
   # Supports true or false (default)
   button: false
 
-# To enable support for mermaid diagrams (https://mermaid-js.github.io/mermaid/),
-# uncomment the `mermaid` and `version` keys below
+# To disable support for mermaid diagrams (https://mermaid-js.github.io/mermaid/),
+# comment out the `mermaid` and `version` keys below
+# By default, consuming the theme as a gem leaves mermaid disabled; it is opt-in
 mermaid:
   # Version of mermaid library
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-  version: "9.1.3"
+  version: "9.1.6"
   # Put any additional configuration, such as setting the theme, in _includes/mermaid_config.js
   # See also docs/ui-components/code
 
+# Enable or disable heading anchors
+heading_anchors: true
+
 # Aux links for the upper right navigation
 aux_links:
-  "42 Intra":
-    - "//profile.intra.42.fr/users/rvela-ca"
   "GitHub":
     - "//github.com/RicardoVelaC/42docs"
-  "LinkedIn":
-    - "//www.linkedin.com/in/ricardovelac/"
 
 # Makes Aux links open in a new tab. Default is false
 aux_links_new_tab: true
@@ -91,18 +102,19 @@ aux_links_new_tab: true
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false
-heading_anchors: true
+# External navigation links
+nav_external_links:
+  - title: 42 Intra
+    url: https://profile.intra.42.fr/users/rvela-ca
+  - title: LinkedIn
+    url: https://www.linkedin.com/in/ricardovelac
 
 # Footer content
 # appears at the bottom of every page's main content
 
 # Back to top link
 back_to_top: true
-back_to_top_text: "Subir"
+back_to_top_text: "⇧"
 
 # footer_content: "2022 - rvela-ca. Distribuido con licencia <a href=\"https://raw.githubusercontent.com/RicardoVelaC/42docs/main/LICENSE\">MIT license.</a>"
 
@@ -112,7 +124,7 @@ last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https:/
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Editar esta página en GitHub."
+gh_edit_link_text: "Editar este contenido"
 gh_edit_repository: "https://github.com/RicardoVelaC/42docs" # the github URL for your repo
 gh_edit_branch: "main" # the branch that your docs is served from
 #gh_edit_source: docs # the source that your files originate from
@@ -120,7 +132,7 @@ gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into t
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
 color_scheme: nil
-# color_scheme: code42
+#color_scheme: code42
 
 callouts_level: quiet # or loud
 callouts:
@@ -139,6 +151,15 @@ callouts:
     title: Warning
     color: red
 
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+#ga_tracking: UA-2709176-10
+#ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
 kramdown:
   syntax_highlighter_opts:
     block:
@@ -153,13 +174,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
-
-# Theme for local Dev
-#theme: just-the-docs
-plugins:
-  - jekyll-remote-theme
-  - jekyll-seo-tag
 
 # Theme for GitHub Pages
 remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
