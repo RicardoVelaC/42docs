@@ -48,7 +48,7 @@ exclude:
    - LICENSE
 
 # Set a path/url to a logo that will be displayed instead of the title
-logo: "/images/logo-header-d@2x.png"
+logo: "/images/logo-header-d-light@2x.png"
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -104,10 +104,10 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: 42 Intra
-    url: https://profile.intra.42.fr/users/rvela-ca
-  - title: LinkedIn
-    url: https://www.linkedin.com/in/ricardovelac
+  # - title: 42 Intra
+  #   url: https://profile.intra.42.fr/users/rvela-ca
+  # - title: LinkedIn
+  #   url: https://www.linkedin.com/in/ricardovelac
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -131,7 +131,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+color_scheme: dark
 #color_scheme: code42
 
 callouts_level: quiet # or loud
