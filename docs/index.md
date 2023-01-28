@@ -21,15 +21,18 @@ incluidos en el cursus de la escuela 42 de Madrid, basados en la
 versión de 2022.
 
 ## Proyectos
-- [libft](./proyectos/libft.html)
 
-- [printf](./proyectos/printf.html)
+- [libft](./proyectos/libft.html)
 
 - [get_next_line](./proyectos/get_next_line.html)
 
+
+<!-- 
 - [Born2beRoot](./proyectos/born2beroot.html)
 
-- [Pipex](./proyectos/pipex.html)
+- [printf](./proyectos/printf.html)
+
+- [Pipex](./proyectos/pipex.html) -->
 
 <!-- ![](../../assets/images/small-image.jpg)
 
